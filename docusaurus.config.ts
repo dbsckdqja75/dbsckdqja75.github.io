@@ -46,7 +46,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/${organizationName}/${projectName}/tree/main/',
+            'https://github.com/dbsckdqja75/dbsckdqja75.github.io/edit/main/',
         },
         blog: {
           showReadingTime: true,
@@ -57,7 +57,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/${organizationName}/${projectName}/tree/main/',
+            'https://github.com/dbsckdqja75/dbsckdqja75.github.io/edit/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -82,19 +82,17 @@ const config: Config = {
         alt: 'Docs Logo',
         src: 'img/Pyre_Logo.png',
       },
-      items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Explore',
-        },
-      ],
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+	metadata: [
+		{
+			name: 'algolia-site-verification',
+			content: '5C9CEB14D9A3D206',
+		}
+	],
   } satisfies Preset.ThemeConfig,
 };
 
