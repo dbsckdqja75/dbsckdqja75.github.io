@@ -1,8 +1,8 @@
 {
-  "label": "PyreForge - VN Editor",
+  "label": "PyreForge",
   "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "그래프 기반 비주얼 노벨 에디터"
+    "description": "게임 개발을 위한 실험실이자 대장간이 되는 토이 프로젝트입니다."
   }
 }

@@ -1,4 +1,5 @@
 import type {ReactNode} from 'react';
+import {Redirect} from '@docusaurus/router';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -24,6 +25,7 @@ function HomepageHeader() {
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
+  return <Redirect to="/docs/home" />;
   return (
     <Layout
       title={`${siteConfig.title}`}

@@ -7,8 +7,8 @@ const organizationName = "dbsckdqja75";
 const projectName = "dbsckdqja75.github.io";
 
 const config: Config = {
-  title: 'TeamCampfire Docs',
-  tagline: '팀에서 진행하고 있는 프로젝트 관련 작업과 기술 사항들을 공유하기 위한 문서 공간입니다!',
+  title: 'Pyre Docs',
+  tagline: '',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -24,8 +24,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'dbsckdqja75', // Usually your GitHub org/user name.
+  projectName: 'dbsckdqja75.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -72,22 +72,22 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/social-card.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'TeamCampfire Docs',
+      title: 'Pyre Docs',
       logo: {
-        alt: 'Team Logo',
-        src: 'img/docusaurus.png',
+        alt: 'Docs Logo',
+        src: 'img/Pyre_Logo.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Home',
+          label: 'Explore',
         },
       ],
     },
