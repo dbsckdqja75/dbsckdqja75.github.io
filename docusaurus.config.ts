@@ -87,12 +87,16 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-	metadata: [
-		{
-			name: 'algolia-site-verification',
-			content: '5C9CEB14D9A3D206',
-		}
-	],
+	algolia: {
+		appId: '7SZ8YTW18P',
+		apiKey: '078ba0e6596118887366b0c1246753a4',
+		indexName: 'pyre',
+		contextualSearch: true,
+		externalUrlRegex: 'external\\.com|domain\\.com',
+		searchParameters: {},
+		searchPagePath: 'search',
+		insights: false,
+	},
   } satisfies Preset.ThemeConfig,
 };
 
